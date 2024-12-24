@@ -16,3 +16,7 @@ SOLANA_RPC_URL=https://api.devnet.solana.com
 SENDER_WALLET=
 SENDER_WALLET_PRIVATE_KEY=
 TARGET_IMG_URL=
+
+To run it just do npm install & node server.js
+
+You need a RunwayML API key
