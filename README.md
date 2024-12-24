@@ -1,5 +1,11 @@
 This demonstrates sending a solana transaction to a REST API
 
+It needs to add a check for the signature, put the siganture in the header of the API call
+
+A REST API server should check the header and see if a signature is there to prove a transfer was made
+
+There would need to be a mechanism needed to check that the signature originated from that particular wallet and it is unique to avoid spam
+
 The magic is that it works quickly by sending a transaction in the header of the API request to prove that SOL was sent to pay for the API
 
 Transactions are calculated very quickly so this allows rapid proof that SOL was sent
